@@ -2,6 +2,7 @@
     <wb-module deploy-name="restful_auth">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/" source-path="/JARs"/>
         <property name="context-root" value="restful_auth"/>
         <property name="java-output-path" value="/restful_auth/build/classes"/>
     </wb-module>

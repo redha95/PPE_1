@@ -1,0 +1,32 @@
+ body {
+
+ 
+	 background: url("fondsite.png") left top repeat #1e1d1c;
+ font-family:Trebuchet MS,Tahoma,sans-serif;
+      padding-left: 0em;
+   font-family: Georgia, "Times New Roman",
+          Times, serif;
+    color: black;
+    background-color: #FFBF00
+	
+	}
+	
+
+	
+	div.bouton-aligne{
+	display:inline-block;
+	width:13.5%;
+	margin:5px 0% 0px 0%;
+	text-align:center;
+	}
+	  h1 {
+    font-family: Pristina, Geneva, Arial,
+          SunSans-Regular, sans-serif }
+		  
+		  div#contenu{
+			  
+			  margin-left:150px;
+			  margin-right:150px;
+		  }
+		  
+		  

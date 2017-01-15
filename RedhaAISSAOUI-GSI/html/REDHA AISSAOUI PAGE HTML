@@ -1,0 +1,36 @@
+<html>
+<body>
+<head>
+<body bgcolor="black">
+<h1><i><u><FONT COLOR="red">Bienvenue sur JEUX VIDEO.COM !</FONT></i></u></h1>
+<title>JeuxVideo.com</title>
+<h1><FONT COLOR="blue"> Vous trouverez ici : </FONT></h1>
+<FONT COLOR="green"><UL>
+<LI> Les news sur les nouveaux jeux video
+<LI> Les news sur les consoles de jeux
+</UL></FONT>
+<IMG SRC="salut.jpg">
+<h3><FONT COLOR="brown"> Grand Theft Auto V est la nouvelle signature de Take Two Interactive , c'est le jeu le plus attendu de l'annee et disponible a partir de 59.90 euros en France metropolitaine , vous pouvez le commander en cliquant
+<A HREF="http://fr.socialclub.rockstargames.com/" TARGET="http://fr.socialclub.rockstargames.com/">ici</A></FONT></h3>
+<IMG SRC="battlefield_4-1280x720.jpg">
+<h3><FONT COLOR="brown"> BattleField 4 est le nouvel opus de la serie Battlefield, c'est un jeu tres attendu chez les gamers en france, le jeu est disponible en precommande en cliquant
+<A HREF="http://www.battlefield.com/fr/battlefield-4" TARGET="http://www.battlefield.com/fr/battlefield-4">ici</A></FONT></h3>
+<IMG SRC="call-of-duty-ghosts-2013-game-1280x720.jpg">
+<h3><FONT COLOR="brown"> Call of Duty Ghost est un jeu de guerre produit par Activision , il sortira en novembre 2013, le jeu est disponible en precommande en cliquant
+<A HREF="http://www.callofduty.com/fr" TARGET="http://www.callofduty.com/fr">ici</A></FONT></h3>
+<center><table BORDER>
+<caption><FONT COLOR="white">TOP 10 DES VENTES POUR LE MOIS D'OCTOBRE : </FONT></caption>
+<tr><td><FONT COLOR="red">1</FONT></td><td><FONT COLOR="blue">Grand Theft Auto V</FONT></td></tr>
+<tr><td><FONT COLOR="red">2</FONT></td><td><FONT COLOR="blue">Watch Dogs</FONT></td></tr>
+<tr><td><FONT COLOR="red">3</FONT></td><td><FONT COLOR="blue">Call of Duty Ghost</FONT></td></tr>
+<tr><td><FONT COLOR="red">4</FONT></td><td><FONT COLOR="blue">BattleField 4</FONT></td></tr>
+<tr><td><FONT COLOR="red">5</FONT></td><td><FONT COLOR="blue">Assacin's Creeds Black Flag</FONT></td></tr>
+<tr><td><FONT COLOR="red">6</FONT></td><td><FONT COLOR="blue">Forza MotorSport 5</FONT></td></tr>
+<tr><td><FONT COLOR="red">7</FONT></td><td><FONT COLOR="blue">Grand Turismo 6</FONT></td></tr>
+<tr><td><FONT COLOR="red">8</FONT></td><td><FONT COLOR="blue">FIFA 14</FONT></td></tr>
+<tr><td><FONT COLOR="red">9</FONT></td><td><FONT COLOR="blue">Just Dance 2014</FONT></td></tr>
+<tr><td><FONT COLOR="red">10</FONT></td><td><FONT COLOR="blue">PES 2014</FONT></td></tr>
+</table></center>
+</head>
+</body>
+</html>

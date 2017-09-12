@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 20px;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 1em; }
+
+  
+$number : 3;
+$gutter: 1em;
+.container-grid-#{$number} {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	justify-content: space-between;
+	margin-left:-#{$gutter};
+}
+
+.container-grid-#{$number} > * {
+    flex: 0 0 auto;
+    width: calc(100% * 1 / #{$number} -  #{$gutter});
+	border: 1px solid black;
+	margin-left:#{$gutter};
+}
+
+
+[class*="grid-"] > div {
+  margin-bottom: 20px;
+  padding: 1em;
+  border: .25em solid darkslategray;
+  color: #fff;
+  background-color: darkturquoise;
+  
+
+  }
+
+/*# sourceMappingURL=tp.css.map */

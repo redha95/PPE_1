@@ -1,0 +1,35 @@
+/*
+Error: Invalid charset directive '@charset': expected string.
+        on line 1 of exo_saas_css.css
+
+1: @charset "UTF-8";
+2: 
+3: * {
+4:   box-sizing: border-box; }
+5: 
+6: body {
+
+Backtrace:
+exo_saas_css.css:1
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:910:in `parse_charset_directive'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:838:in `parse_directive'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:655:in `parse_line'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:540:in `build_tree'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:559:in `block in append_children'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:558:in `each'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:558:in `append_children'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:417:in `_to_tree'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/exec/base.rb:52:in `parse'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.1/lib/sass/exec/base.rb:19:in `parse!'
+C:/Ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.1/bin/sass:13:in `<top (required)>'
+C:/Ruby/bin/sass:22:in `load'
+C:/Ruby/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid charset directive '@charset': expected string.\A         on line 1 of exo_saas_css.css\A \A 1: @charset \"UTF-8\";\A 2: \A 3: * {\A 4:   box-sizing: border-box; }\A 5: \A 6: body {"; }

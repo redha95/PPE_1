@@ -1,0 +1,6 @@
+
+@For $i From 1 through 12 {
+	
+	.column- #{$i} { width: 100$i/12%; }
+
+}

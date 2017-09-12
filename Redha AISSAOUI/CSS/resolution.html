@@ -1,0 +1,84 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>TP</title>
+
+<style type="text/css">
+
+body {
+	font-family:Sans-serif;
+	font-size:100%;
+	background:#F1F1F1;
+}
+
+p {
+	color:#000;
+	background:#fff;
+	padding: 0.5em 1em;
+	margin: 1em;
+	color:#666;
+	line-height:150%;
+}
+
+h1 {
+	padding:0;
+	color:#ccc;
+	margin-bottom:0;
+}
+
+/* apparition/disparition des règles, état initial */
+
+.diag {
+	color:#fff;
+}
+
+
+
+
+@media screen and (max-width: 640px) {
+	.a {
+		background: #F60;
+	}
+}
+
+
+@media screen and (min-width: 640px) and (max-width: 800px){
+	.b {
+		background: #F60;
+	}
+}
+
+
+
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+	.c {
+		background: #F60;
+	}
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+	.d {
+		background: #F60;
+	}
+}
+</style>
+
+
+</head>
+
+<body>
+
+
+
+<h1> Resolutions </h1>
+
+<p class="diag a"> La page est afficher sur un periphérique de 640px </p>
+<p class="diag b"> La page est afficher sur un periphérique de largeur 640px et longeur 800 </p>
+<p class="diag c"> La page est afficher sur un periphérique de largeur 800 et longeur 1024 </p>
+<p class="diag d"> La page est afficher sur un periphérique de largeur 1024 et 1280 </p>
+
+</body>
+</html>

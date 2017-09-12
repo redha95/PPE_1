@@ -1,0 +1,29 @@
+label {
+  display:block;
+}
+
+input {
+  float:left;
+}
+
+#button1:checked ~ img[longdesc]  {
+	border: 0.5em solid blue;
+}
+
+#button2:checked ~ img ~ p::after{
+  height: 100px;
+  content: "[ - Aymeric ----- Baptiste ----- Céline ----- Clément]";
+}
+
+#button3:checked ~ img[alt*="lunette"]:not([alt*="barbe"]) {
+  border: 0.5em solid red;
+}
+
+#button4:checked ~ img[alt*="garcon"][title*="garcon"] {
+  border: 0.5em solid yellow;
+}
+
+
+#button5:checked ~ img[alt*="garcon"][title*="garcon"] {
+  border: 0.5em solid green;
+}

@@ -1,0 +1,121 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>TP1 Flexbox</title>
+<style type="text/css">
+body, textarea, input {
+	font-family:
+ "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:12px;
+}
+fieldset, input, textarea {
+	margin: 1px;
+	border: 1px solid gray;
+	border-radius: 4px;
+}
+form {
+	max-width:800px;
+	margin: 1em auto;
+}
+
+.container {
+
+display: flex;
+justify-content:center;
+align-items:stretch;
+flex-wrap: wrap;
+
+}
+
+.container > *{
+
+flex-direction: column-reverse;
+}
+
+.container2 {
+
+  flex-grow: 1;
+}
+
+.container3 {
+
+	flex-grow: 1;
+	float:right;
+	
+}
+
+.container3 label {
+
+float:right;
+}
+
+.container3 div {
+
+display:block;
+flex-direction:column;
+}
+
+.bouton {
+
+	align-self:flex-end;
+}
+
+.container4 input {
+
+float:right;
+
+}
+
+form p {
+
+display:block;
+flex:1;
+text-align:right;
+}
+
+.coordo {
+text-align:left;
+
+}
+
+
+</style>
+</head>
+
+<body>
+<form action="">
+<div class="container">
+  <fieldset class="container2">
+    <p class="coordo">Vos coordonnées :</p>
+    <p>
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" name="nom">
+    </p>
+    <p>
+      <label for="prenom">Prénom :</label>
+      <input type="text" id="prenom" name="prenom">
+    </p>
+    <p>
+      <label for="email">E-mail :</label>
+      <input type="email" id="email" name="email">
+    </p>
+  </fieldset>
+  <fieldset class="container3">
+    <div>
+      <p>
+        <label for="post1">Votre réclamation :</label>
+      </p>
+      <textarea id="post1" name="post1"  rows="5" >Saisissez ici le texte de votre réclamation, un message personnel vous sera adressé dans les 24 heures
+        		</textarea>
+    </div>
+  </fieldset>
+</div>
+<fieldset class="container4">
+  <p>
+    <input class="bouton" type="submit" value="Envoyer">
+  </p>
+</fieldset>
+</body>
+</html>

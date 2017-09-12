@@ -1,0 +1,8 @@
+
+
+
+#button1:checked ~ img[longdesc*="https"]  {
+	
+	border: 2px solid blue;
+}
+
